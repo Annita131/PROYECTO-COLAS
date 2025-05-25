@@ -1,0 +1,16 @@
+# ========================================
+# CONFIGURACIÓN RABBITMQ PARA TU PROYECTO
+# ========================================
+# Copia estas líneas a tu archivo .env
+
+# Cambiar la conexión de cola por defecto
+QUEUE_CONNECTION=rabbitmq
+
+# Configuración de RabbitMQ
+RABBITMQ_HOST=127.0.0.1
+RABBITMQ_PORT=5672
+RABBITMQ_USER=guest
+RABBITMQ_PASSWORD=guest
+RABBITMQ_VHOST=/
+RABBITMQ_QUEUE=podcasts
+RABBITMQ_WORKER=default 
